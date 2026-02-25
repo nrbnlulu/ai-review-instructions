@@ -11,7 +11,14 @@ Write a codereview by diffing with the main branch.
 ### example output
 
 ```md
-### Bugs 🐛 
+### AI-CODEREVIEW Branch: foo baz
+changes summary...
+
+### Findings
+<details>
+  <summary>Bugs 🐛{{number of lints found}}</summary>  
+
+ 
 ![critical](https://www.gstatic.com/codereviewagent/critical.svg)
 #### 1. the logic in X function may cause Y
 
@@ -25,9 +32,14 @@ yada yada
 it will cause this bug...
 
 #### 2. etc...
-### Nits 💅
+
+</details>
+<details>
+  <summary>Nits 💅{{number of lints found}}</summary>  
+
 #### 1. etc...
 same format
 > can also add here a quote from the review instructions that violated
- 
+</details>
+
 ```
