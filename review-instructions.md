@@ -42,5 +42,8 @@ it will cause this bug...
 same format
 > can also add here a quote from the review instructions that violated
 </details>
-
+### Minimalistic checklist
+<all the above lints same ordering so that developers can checklist them interactively>
+#### Bugs 🐛:
+- [ ] ...
 ```
