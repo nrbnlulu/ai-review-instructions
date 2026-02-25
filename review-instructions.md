@@ -12,6 +12,7 @@ Write a codereview by diffing with the main branch.
 
 ```md
 ### AI-CODEREVIEW Branch: foo baz
+Ref: <git ref of the commit when reviewed>
 changes summary...
 
 ### Findings
