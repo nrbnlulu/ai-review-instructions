@@ -1,4 +1,4 @@
-Write a codereview by diffing with the main branch.
+Write a codereview by diffing with the main branch (make sure it is up to date with origin).
 - output in markdown format
 - include these catagories: bug, nit, typo, DX (i.e bad api's), UX (adapters, graphql etc in case thats a backend repo, and UI exp issues if thats a ui), code-smell 
 - always check whats the aproach of the repo to do things and review based on that.
