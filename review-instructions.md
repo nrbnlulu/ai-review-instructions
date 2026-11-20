@@ -1,6 +1,6 @@
 Write a codereview by diffing with the main branch (make sure it is up to date with origin).
 - output in markdown format
-- include these catagories: bug, nit, typo, DX (i.e bad api's), UX (adapters, graphql etc in case thats a backend repo, and UI exp issues if thats a ui), code-smell 
+- include these catagories: bug, performance, nit, typo, DX (i.e bad api's), UX (adapters, graphql etc in case thats a backend repo, and UI exp issues if thats a ui), code-smell 
 - always check whats the aproach of the repo to do things and review based on that.
 - make sure you have the full context of what a change is intended to do, even it it is outside the git diff so you'd have the full context.
 - sort by catagory, then severity: ![critical](https://www.gstatic.com/codereviewagent/critical.svg), ![high](https://www.gstatic.com/codereviewagent/high-priority.svg), ![medium](https://www.gstatic.com/codereviewagent/medium-priority.svg), ![medium](https://www.gstatic.com/codereviewagent/low-priority.svg),
@@ -14,7 +14,14 @@ Write a codereview by diffing with the main branch (make sure it is up to date w
 ### AI-CODEREVIEW Branch: foo baz
 PR Ref: <git ref of the latest commit when reviewed>
 Main Ref: <git ref of the latest commit on main>
-changes summary...
+
+### Goal
+
+<the goal this pr is trying achieve in short>
+
+### How
+
+<summary of the changes and how they address the pr topic>
 
 ### Findings
 <details>
